@@ -1,6 +1,7 @@
 # googlePhotoIframe
- Manage the google docs photo slider iframe. This is Client html with css style.
+ Manage the google docs photo responsive slider with iframe. This is Client html with css style.
 
+### [View the demo](https://hafiz6512.github.io/googlePhotoIframe/)
 
 ## Devloper Website
 ### [Diehardcoder](http://diehardcoder.com)
