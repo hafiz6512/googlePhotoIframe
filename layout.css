@@ -1,0 +1,67 @@
+
+/* Responsive Google Slides, YouTube & Vimeo */
+/*iframe[src*="docs.google.com"],
+iframe[src*="youtube.com"],
+iframe[src*="player.vimeo.com"]{
+  width: 80%;
+  height: auto;
+  aspect-ratio: 5 / 4;
+
+}
+*/
+
+h1 {
+    text-align:center;
+}
+
+p {
+    text-align:center;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.responsive-google-slides {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Ratio */
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.responsive-google-slides iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80% !important;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+}
+
+
+.slider-container{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-container iframe{
+    width: 101%;
+    height: auto;
+    aspect-ratio: 16/12;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.slider-container iframe .punch-viewer-content{
+    background: none !important;
+}
+
+
